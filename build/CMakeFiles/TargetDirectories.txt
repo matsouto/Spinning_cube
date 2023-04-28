@@ -1,0 +1,3 @@
+/home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles/spinning_cube.dir
+/home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles/edit_cache.dir
+/home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles/rebuild_cache.dir
