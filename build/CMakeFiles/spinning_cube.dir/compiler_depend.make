@@ -355,6 +355,7 @@ CMakeFiles/spinning_cube.dir/main.cpp.o: /home/matsouto/Code/Cpp/Spinning_cube/m
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
+  /usr/include/SDL2/SDL_events.h \
   /usr/include/c++/12/cstring
 
 CMakeFiles/spinning_cube.dir/src/screen.cpp.o: /home/matsouto/Code/Cpp/Spinning_cube/src/screen.cpp \
@@ -710,7 +711,8 @@ CMakeFiles/spinning_cube.dir/src/screen.cpp.o: /home/matsouto/Code/Cpp/Spinning_
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
-  /usr/include/SDL2/SDL_misc.h
+  /usr/include/SDL2/SDL_misc.h \
+  /usr/include/SDL2/SDL_events.h
 
 
 /home/matsouto/Code/Cpp/Spinning_cube/src/screen.cpp:

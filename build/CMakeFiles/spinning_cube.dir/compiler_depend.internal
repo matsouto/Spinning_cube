@@ -356,6 +356,7 @@ CMakeFiles/spinning_cube.dir/main.cpp.o
  /usr/include/SDL2/SDL_version.h
  /usr/include/SDL2/SDL_locale.h
  /usr/include/SDL2/SDL_misc.h
+ /usr/include/SDL2/SDL_events.h
  /usr/include/c++/12/cstring
 
 CMakeFiles/spinning_cube.dir/src/screen.cpp.o
@@ -713,4 +714,5 @@ CMakeFiles/spinning_cube.dir/src/screen.cpp.o
  /usr/include/SDL2/SDL_version.h
  /usr/include/SDL2/SDL_locale.h
  /usr/include/SDL2/SDL_misc.h
+ /usr/include/SDL2/SDL_events.h
 

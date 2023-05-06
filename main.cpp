@@ -6,7 +6,9 @@ int main() {
 
   auto myScreen = new Screen();
 
-  std::cout << "Hello, World" << std::endl;
+  while (true) {
+    myScreen->input();
+  }
 
   return 0;
 }

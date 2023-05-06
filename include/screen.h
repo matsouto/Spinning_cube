@@ -2,6 +2,7 @@
 
 #include "global.h"
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_events.h>
 
 class Screen {
 
@@ -12,5 +13,7 @@ private:
 public:
   SDL_Renderer *renderer;
   SDL_Window *window;
+  SDL_Event e;
   Screen();
+  void input();
 };
