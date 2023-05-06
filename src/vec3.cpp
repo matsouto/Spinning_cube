@@ -10,8 +10,8 @@ void vec3::rotate(vec3 centroid, float A, float B, float C) {
   float cosC = std::cos(C), sinC = std::sin(C);
 
   // Adjusts for the rotation occour around centroid
-  this->x -= centroid.x;
   this->y -= centroid.y;
+  this->x -= centroid.x;
   this->z -= centroid.z;
 
   // X axis rotation

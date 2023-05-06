@@ -3,5 +3,5 @@
 // Screen constants
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
-
-#define DELAY 100
+#define CUBE_SIZE 100
+#define DELAY 10
