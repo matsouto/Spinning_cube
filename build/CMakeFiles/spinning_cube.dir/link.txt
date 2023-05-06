@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/spinning_cube.dir/main.cpp.o CMakeFiles/spinning_cube.dir/src/screen.cpp.o -o bin/spinning_cube  -lSDL2main -lSDL2 
+/usr/bin/c++ CMakeFiles/spinning_cube.dir/main.cpp.o CMakeFiles/spinning_cube.dir/src/vec3.cpp.o CMakeFiles/spinning_cube.dir/src/screen.cpp.o -o bin/spinning_cube  -lSDL2main -lSDL2 

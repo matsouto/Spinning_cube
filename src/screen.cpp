@@ -1,6 +1,5 @@
 #include "../include/screen.h"
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_events.h>
+#include <SDL2/SDL_render.h>
 
 Screen::Screen() {
 
@@ -33,7 +32,19 @@ Screen::Screen() {
   SDL_RenderSetScale(this->renderer, 1, 1);
 }
 
-void Screen::input() {
+void Screen::drawPixel(float x, float y) {
+  SDL_SetRenderDrawColor(this->renderer, 255, 255, 255, 255);
+  SDL_RenderDrawPoint(this->renderer, x, y);
+}
+
+void Screen::drawLine(float x1, float y1, float x2, float y2) {
+  SDL_SetRenderDrawColor(this->renderer, 255, 255, 255, 255);
+  SDL_RenderDrawLineF(this->renderer, x1, y1, x2, y2);
+}
+
+void Screen::show() { SDL_RenderPresent(this->renderer); }
+
+void Screen::eventHandler() {
   while (SDL_PollEvent(&e)) {
     switch (e.type) {
     case SDL_QUIT:
@@ -41,4 +52,9 @@ void Screen::input() {
       exit(0);
     }
   }
+}
+
+void Screen::clear() {
+  SDL_SetRenderDrawColor(this->renderer, 0, 0, 0, 255);
+  SDL_RenderClear(this->renderer);
 }

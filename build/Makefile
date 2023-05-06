@@ -177,6 +177,30 @@ src/screen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/src/screen.cpp.s
 .PHONY : src/screen.cpp.s
 
+src/vec3.o: src/vec3.cpp.o
+.PHONY : src/vec3.o
+
+# target to build an object file
+src/vec3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/src/vec3.cpp.o
+.PHONY : src/vec3.cpp.o
+
+src/vec3.i: src/vec3.cpp.i
+.PHONY : src/vec3.i
+
+# target to preprocess a source file
+src/vec3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/src/vec3.cpp.i
+.PHONY : src/vec3.cpp.i
+
+src/vec3.s: src/vec3.cpp.s
+.PHONY : src/vec3.s
+
+# target to generate assembly for a file
+src/vec3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/src/vec3.cpp.s
+.PHONY : src/vec3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/screen.o"
 	@echo "... src/screen.i"
 	@echo "... src/screen.s"
+	@echo "... src/vec3.o"
+	@echo "... src/vec3.i"
+	@echo "... src/vec3.s"
 .PHONY : help
 
 

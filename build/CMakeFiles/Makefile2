@@ -81,12 +81,12 @@ clean: CMakeFiles/spinning_cube.dir/clean
 CMakeFiles/spinning_cube.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spinning_cube.dir/build.make CMakeFiles/spinning_cube.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles --progress-num=1,2,3 "Built target spinning_cube"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles --progress-num=1,2,3,4 "Built target spinning_cube"
 .PHONY : CMakeFiles/spinning_cube.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spinning_cube.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spinning_cube.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsouto/Code/Cpp/Spinning_cube/build/CMakeFiles 0
 .PHONY : CMakeFiles/spinning_cube.dir/rule

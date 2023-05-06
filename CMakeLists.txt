@@ -9,8 +9,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
-add_executable("${PROJECT_NAME}" main.cpp ${SRC_FILES})
-# add_executable(${PROJECT_NAME}" main.cpp src/algorithms.cpp src/initSDL.cpp)
+add_executable("${PROJECT_NAME}" main.cpp src/vec3.cpp ${SRC_FILES})
 
 target_include_directories("${PROJECT_NAME}" PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries("${PROJECT_NAME}" SDL2main SDL2)
